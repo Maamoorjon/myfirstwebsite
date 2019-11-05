@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+  <html lang="ja">　　　  <!--　言語の指定は、htmlタグの中で[lang="言語名"]と指定する -->
+
+    <head>
+      <meta charset="utf-8">
+      <title>GULCHEHRAの好きな食べ物</title>
+      <link rel="stylesheet" href="Gulchehra.css">
+      <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+
+      <header>
+
+        <section>
+          <p>
+          <img class="Profile Image"src="images/Guli.png" width="500px", height="500px" alt="Gulchehraのホームページ">
+          <!-- [src="C:/users/shohjahon/Guli.png"]を「属性」と呼ぶ。そのうち、「src」は、sourceの略で、「属性名」と呼ぶ。
+          「"C:/users/shohjahon/Guli.png"」の部分を「属性の値」と言う。また、画像のサイズを指定したい時には、スペースを空けて
+          [widht="画像の広さ"]、[height="画像の高さ"]と指定する。-->
+          </p>
+        </section>
+
+        <section>
+          <p>
+          <h3>このサイトは  <span style="color: blue"> HALNAZAROVA　GULCHEHRA </span>  が運営するサイトです　!!!</h3>
+          <!-- spanタグの中でCSSを指定するには、span開始タグの中でスペースを空けて、「style="プロパティ: 値"」と書く-->
+          </p>
+          <ul>
+            <li><a href="#Profile">HALNAZAROVA GULCHEHRAのプロフィール</a></li>
+            <li><a href="#Link1">HALNAZAROVA GULCHEHRAに関するリンク集</a></li>
+            <li><a href="#Link2">人気ランキング</a></li>
+            <!-- ページ内にリンクを張る（一つのページ内である所から別の所に飛ばす）には、飛ばす先に「id="名前"」のように
+            id名を付けて、[<a href="#id名">飛び先の名前</a>]のように、aタグのhref属性に、シャープ記号とidの名前を付けてあげる-->
+          </ul>
+          <br><br>
+        </section>
+
+      </header>
+
+      <main>
+
+          <hr>　　<!-- <hr>タグを書くと、ページの左端から右端まで線が引かれる。<hr>タグには終了タグはない-->
+          <hr>
+
+        <section>
+          <blockquote>　　<!-- [<blockquote>～</blockquote>]タグで囲まれた文は、引用文の形で２字下げになる-->
+            <p>  <!-- <p>タグは文（文章）を書くためのタグである -->
+              <strong id="Profile">HALNAZAROVA GULCHEHRAのプロフィール</strong>
+              <!-- <strong>～</strong>タグで囲まれた語や文は、太字で表示される-->
+              <br>HALNAZAROVA GULCHEHRAは1982年12月18日にウズベキスタン国タシケント州チナズ地区のグルザラバードという小さな村に
+              生まれました。彼女は家族で2番目の子どもで、兄貴か一人と妹が二人、そして弟の五人兄弟です。今兄弟全員結婚していて、みんな
+              幸せに暮らしています。Gulchehraは兄弟の中でも一番綺麗で可愛い子共でした。そしてちょっとおてんば娘でもありました。子供の
+              ころは髪の毛はまるでパーマをかけているかのようにもじゃもじゃしていてとても綺麗でした。大人になってからはストレートになって
+              きて、パーマが無くてなってしまったが、それでも綺麗です。
+              <br>現在、彼女は家族と一緒に日本に住んでいます。日本に来て日本語もぺらぺらにしゃべれるようになり、友達もたくさん増えました。
+              家族の世話をするのと同時に、仕事も掛け持ちしていてすごく忙しいです。
+              <br>HALNAZAROVA GULCHEHRAとお友達になりたい人は気軽に彼女に声をかけて下さいね。
+              <br>　　<!-- 文中で<br>タグを入れると、その位置から改行される。<br>タグには終了タグはない -->
+              <br>それでは、また今度ね。
+            </p>
+          </blockquote>
+        </section>
+
+        <hr>
+        <hr>
+
+        <section>
+          <h2 id="Link1"> <span style="color: blue">HALNAZAROVA GULCHEHRAに関するリンク集</span></h2>
+          <h4>HALNAZAROVA GULCHEHRA　についてさらに知りたい人は次のリンクをクリックしてね(｡･ω･｡)ﾉ♡</h4>
+          <ol type="I">
+            <!-- リストの前の数字が大文字のローマ字で表示されるようにするためには、olタグでtype属性に大文字のIを指定する。また、リストの
+            前の数字が小文字のアルファベットで表示されるようにするためには、[<ol type="a">]のように、小文字のaを指定する-->
+            <li><a href="./Gulchehra's_favourite_food.html" target="_blank">Gulchehraの好きな食べ物</a></li>
+            <!--飛び先のURLが同じタブではではなく、別のタブで開かれるようにしたい場合はURLを書いた後にtarget="_blank"と書く。-->
+            <li>Gulchehraの趣味</li>
+            <li>Gulchehraの写真集</li>
+            <li>Gulchehraの家族</li>
+          </ol>
+        </section>
+
+        <section>
+          <dl>
+            <dt>ウズベク語はどこで話されている言語ですか。次の4つの質問の中から適切な回答を選んでください。</dt>
+            <dd>a. 日本で話されている言語だ</dd>
+            <dd>b. アフリカで話されている言語だ</dd>
+            <dd>c. 死んでいる言語だ</dd>
+            <dd>d. ウズベキスタンで話されている言語だ</dd>
+          </dl>
+        </section>
+
+        <section>
+          <h2 id="Link2">人気ランキング</h2>
+          <a href="#">TOPへ</a>   <!-- ページの一番トップへ戻るには、[<a href="#">TOPへ</a>]のように、aタグのhref属性に、
+            シャープ記号を付けてあげる-->
+          <a href="mailto:maamoorjon@yahoo.com">Emailを送ろう</a>　　
+            <!-- emailリンクを作る方法：<a href="mailto:送り先のメールアドレス">-->
+        </section>
+
+        <section>
+          <table>   <!-- 表を作るには、tableタグを用いる。表の題はtheadタグで、題以外の部分はtbodyタグで囲む。
+            trタグはtable rowの意味で、表の行を表わす。それぞれのセルに入れる内容は、題の場合はth（table heading cell)タグで、
+            題以外の場合はtd（table data cell）で囲む。
+          -->
+            <thead>
+              <tr><th>出版年月日</th><th>作家名</th><th>作品名</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>2006</td><td>Tohir Malik</td><td>Shaytanat</td></tr>
+              <tr><td>2004</td><td>Said Ahmad</td><td>Sinchalak</td></tr>
+              <tr><td>1996</td><td>Otauli</td><td>Zadogon</td></tr>
+              <tr><td>1986</td><td>Oybek</td><td>Oltin Deraza</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+      </main>
+
+      <h2>お問い合わせ</h2>　　　<!--お問い合わせフォームを作るには、formタグを用いる。 -->
+      <form>
+          <label for="name"> 氏名 </label>   <!-- labelタグは名前を付けるために用いられ、for属性に名前を付けたいid名を指定する。-->
+          <input type="text" id="name">　　　<!-- 一行用の入力欄を作るにはinputタグのtype属性にtextを指定する。inputタグには
+          　　　　　　　　　　　　　　　　　　　 終了タグはない-->
+
+          <label for="nationality"> 国籍 </label>
+          <input type="text" id="nationality">　　　
+
+          <hr>
+
+          <label> 氏名 <input type="text"> </label>　 <!-- labelタグとinputタグを一行で書くことができる。そのためには、inputタグを
+            　　　　　　　　　　　　　　　　　　　　　　　 labelタグで囲んで、label開始タグとinputタグの間に適切な名前を書く-->
+          <label> 国籍 <input type="text"> </label>　
+
+          <hr>
+
+          <p>
+            <label for="name"> 名前 </label>   <!-- 入力欄をpタグで囲んであげると、一行ではなくそれぞれ別の段落として表示される。-->
+            <input type="text" id="name">　　　
+          </p>
+          <p>
+            <label for="nationality"> 国籍 </label>
+            <input type="text" id="nationality">　　
+          </p>
+
+          <hr>
+
+          <p>
+            <label for="message"> 管理者へのメッセージ </label>   <!-- 複数行の入力欄はtextareaタグによって表される。-->
+            <textarea id="message"></textarea>　　　
+          </p>
+          <p>
+            <button>送信</button>　　<!-- ボタンを作るには、buttonタグの中にボタンの名前を指定する方法と、-->
+            <input type="submit" value="受信">　　<!-- inputタグのtype属性にsubmitを指定し、value属性でボタンの名前を指定する方法がある-->
+          </p>
+
+          <hr>
+
+          <p>
+            <label for="id name"> IDネーム </label>
+            <input type="text" id="id name" placeholder="IDネームを入力してください">　
+            　　　<!-- placeholder属性を使うと、入力欄にどんな内容を入力すべきかをガイドすることができる。-->　　
+          </p>
+
+          <p>
+            <label for="pwd"> パスワード </label>
+            <input type="password" id="pwd" placeholder="パスワードを入力してください">　
+            　　　<!-- パスワード入力欄を作るには、inputタグのtype属性にpasswordを指定する。-->
+          </p>
+
+          <hr>
+
+          <p>
+            <label for="product">対象商品</label>
+            <select id="product">              <!-- セレクトボックスを作るにはselectタグを使う。選択肢をoptionタグで指定する-->
+              <option> Product A </option>　　 <!-- 選択肢をoptionタグで一つずつ指定していく-->
+              <option> Product B </option>
+              <option> Product C </option>
+              <option> Product D </option>
+            </select>
+          </p>
+
+          <p>
+            <label for="size">サイズ</label>
+            <select id="size" multiple>    <!-- 複数の選択肢を選択できるようにするには、selectタグでmultipleと書く。-->
+              <option> SS </option>　　　　　<!-- そうすると、シフトキーなどで複数選択が可能になる -->
+              <option> S </option>
+              <option selected> M </option>       <!-- デフォルトでMサイズを指定しておきたい場合は、optionタグでselectedと書く-->
+              <option> L </option>
+              <option> LL </option>
+            </select>
+          </p>
+
+          <hr>
+
+          <fieldset>
+            <legend>お使いのスマホ（複数選択可）</legend>
+            <input type="checkbox" id="android" checked> <label for="android">Android</label>
+            <input type="checkbox" id="iphone"> <label for="iphone">iPhone</label>
+            <input type="checkbox" id="others"> <label for="others">その他</label>
+          </fieldset>
+                <!-- チェックボックスを作るにはinputタグのtype属性にcheckboxを指定する。続けてlabelタグで名前を付ける。
+                複数のチェックボックスをグループ化するには、fieldsetタグで囲む。そしてそのグループにタイトルを付けるには
+                legendタグを用いる。デフォルトでどれかにチェックを入れておきたい場合は、inputタグでcheckedと書く-->
+
+          <hr>
+
+          <fieldset>
+            <legend>一番好きなスマホ</legend>
+            <input type="radio" name="phone" id="android" checked> <label for="android">Android</label>
+            <input type="radio" name="phone" id="iphone"> <label for="iphone">iPhone</label>
+            <input type="radio" name="phone" id="others"> <label for="others">その他</label>
+          </fieldset>
+        　　　  <!-- 複数の選択肢から一つだけ選ぶことができるラジオボタンを作るには、inputタグのtype属性にradioを指定し、
+                続けてlabelタグで名前を付ける。複数のラジオボタンをグループ化するには、fieldsetタグで囲み、legendタグを
+                用いて名前を付ける。このままでは全部選択できるようになっているが、一つだけ選択できるようにするには、それぞれの
+              　ラジオボタンにname属性を用いて同じような名前を付けてあげればOK-->
+
+      </form>
+    </body>
+  </html>
