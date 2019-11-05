@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html lang="ja">　　　  <!--　言語はhtmlタグで[lang="言語名"]と指定する -->
+
+    <head>
+      <meta charset="utf-8">
+      <title>GULCHEHRAの好きな食べ物</title>
+      <link rel="stylesheet" href="Gulchehra.css">
+      <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body>
+      <h2><strong>ようこそ、≪<span style="color: red">GULCHEHRAHON</span>≫の好きな食べ物へ !!!</strong></h2>
+      <br>
+
+      <h3>Gulchehraが一番好きな食べ物は美味しい<span style="color: blue">ドーナツ</span>です。</h3>
+      <img src="./images/Donuts2.jpg" alt="ドーナツ" width="200px" height="150px">
+      <img src="./images/Donuts3.jpg" alt="ドーナツ" width="200px" height="150px">
+
+      <br><br><br><br><br><br><br>
+      <h5 class="Tabemono1">例えば、こんなものや😋</h5>
+      <h5 class="Tabemono2">こんなもの😋</h5>
+
+      <br><br><br><br><br><br><br>
+      <img src="./images/Donuts4.jpg" alt="ドーナツ" width="200px" height="150px">
+      <img src="./images/Donuts1.jpg" alt="ドーナツ" width="200px" height="150px">
+
+
+
+      <h5 class="Tabemono3">また、このようなものも😋</h5>
+      <h5 class="Tabemono4">もちろん、こんなものまで全部好きです。😋</h5>
+      <br><br><br><br><br><br>
+      <hr>
+      <br>また、甘いケーキも大好物です。
+      <br>ハード形では、カレーとラーメンが好きです。
+      <br>お飲み物はコーヒーが一番好きです。飲み過ぎて頭が痛くなるくらいだからね。
+      <br>運よく彼女と付く会うことになったら、美味しいコーヒーを一杯おごってあげてね。
+    </body>
+   </html>
